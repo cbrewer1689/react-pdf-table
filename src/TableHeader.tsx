@@ -3,6 +3,10 @@ import {getDefaultBorderIncludes} from "./Utils";
 import {TableRow, TableRowProps} from "./TableRow";
 
 export interface TableHeaderProps extends TableRowProps {
+    /**
+     * The children to display
+     */
+    children: React.ReactNode;
 }
 
 /**

@@ -5,6 +5,10 @@ import {ZebraProps} from "./Table";
 
 export interface TableBodyProps extends TableRowProps, Pick<ZebraProps, "zebra"> {
     /**
+     * The children to display
+     */
+    children: React.ReactNode;
+    /**
      * The data associated with the table.
      */
     data?: any[];

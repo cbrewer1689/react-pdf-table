@@ -25,6 +25,10 @@ export interface ZebraProps {
 
 export interface TableProps extends ZebraProps {
     /**
+     * The children to display
+     */
+    children: React.ReactNode;
+    /**
      * The table data to display.
      */
     data?: any[];

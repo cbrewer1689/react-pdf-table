@@ -30,6 +30,10 @@ export interface TableBorder {
 
 export interface TableCellProps extends TableBorder {
     /**
+     * The children to display
+     */
+    children: React.ReactNode;
+    /**
      * The weighting of a cell based on the flex layout style.
      * This value is between 0..1, if not specified 1 is assumed, this will take up the remaining available space.
      */
