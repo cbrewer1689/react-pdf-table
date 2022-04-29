@@ -9,7 +9,7 @@ export interface TableRowProps extends TableBorder {
     /**
      * The children to display
      */
-    children: React.ReactNode;
+    children?: React.ReactNode;
     /**
      * The font size as a valid unit defined in react-pdf.
      */
