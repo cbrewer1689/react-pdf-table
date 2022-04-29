@@ -2,6 +2,7 @@ import * as React from "react";
 import { TableBorder } from "./TableCell";
 import { TableBodyProps } from "./TableBody";
 export interface TableRowProps extends TableBorder {
+    children: React.ReactNode;
     fontSize?: number | string;
     textAlign?: "left" | "center" | "right";
     data?: any;

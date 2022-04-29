@@ -5,6 +5,7 @@ export interface ZebraProps {
     oddRowColor?: string;
 }
 export interface TableProps extends ZebraProps {
+    children: React.ReactNode;
     data?: any[];
     isNested?: boolean;
 }
